@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anushka Dhariya | Portfolio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      /* Sticky navbar ke offset ke liye */
+      section {
+        scroll-margin-top: 70px;
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+
+    <!-- 1. Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#about">Anushka Dhariya</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 2. About / Hero Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="p-4 p-md-5 text-center bg-white rounded-3 shadow-sm border">
+          <h1 class="text-dark fw-bold h2 mb-3">BCA Student & Aspiring Developer</h1>
+          <p class="col-lg-8 mx-auto text-muted mb-4">
+            Passionate about Data Analytics, Machine Learning workflows, and responsive web development with Bootstrap, PHP, and SQL.
+          </p>
+          <div class="d-flex justify-content-center gap-2">
+            <a href="#projects" class="btn btn-primary px-4">View Projects</a>
+            <a href="#contact" class="btn btn-outline-secondary px-4">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Skills Cards -->
+    <section id="skills" class="py-4">
+      <div class="container">
+        <h3 class="text-center fw-bold mb-4">Technical Stack</h3>
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-12 col-md-4">
+            <div class="card h-100 shadow-sm border-0 bg-white p-3">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold text-primary mb-2">Web Development</h5>
+                <p class="card-text text-muted small">HTML5, CSS3, Bootstrap 5, Basic PHP, and Responsive Layouts.</p>
+                <span class="badge bg-primary-subtle text-primary">Frontend & UI</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-12 col-md-4">
+            <div class="card h-100 shadow-sm border-0 bg-white p-3">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold text-success mb-2">Data Science & ML</h5>
+                <p class="card-text text-muted small">Python, Pandas, NumPy, Scikit-Learn, Matplotlib, and Seaborn.</p>
+                <span class="badge bg-success-subtle text-success">Predictive Models</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-12 col-md-4">
+            <div class="card h-100 shadow-sm border-0 bg-white p-3">
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold text-dark mb-2">Data Analytics & Tools</h5>
+                <p class="card-text text-muted small">Power BI, Advanced Excel, MySQL, EDA, and Git/GitHub.</p>
+                <span class="badge bg-dark-subtle text-dark">BI & Queries</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Projects Table -->
+    <section id="projects" class="py-4">
+      <div class="container">
+        <div class="card shadow-sm border-0 p-4 bg-white">
+          <h3 class="fw-bold mb-4">Featured Projects</h3>
+          <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+              <thead class="table-dark">
+                <tr>
+                  <th>Project Name</th>
+                  <th>Domain</th>
+                  <th>Tech Stack</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="fw-semibold">Responsive Portfolio Webpage</td>
+                  <td>Web Design</td>
+                  <td>HTML5, CSS3, Bootstrap 5</td>
+                  <td><span class="badge bg-success">Live</span></td>
+                </tr>
+                <tr>
+                  <td class="fw-semibold">Madhav Sales Store Dashboard</td>
+                  <td>Data Analytics</td>
+                  <td>Power BI, Advanced Excel</td>
+                  <td><span class="badge bg-success">Completed</span></td>
+                </tr>
+                <tr>
+                  <td class="fw-semibold">EV Charging Network Analysis</td>
+                  <td>Data Analytics</td>
+                  <td>Python, Pandas, SQL</td>
+                  <td><span class="badge bg-success">Completed</span></td>
+                </tr>
+                <tr>
+                  <td class="fw-semibold">AI/ML Predictive Models</td>
+                  <td>Machine Learning</td>
+                  <td>Python, Scikit-Learn, Pandas</td>
+                  <td><span class="badge bg-primary">Completed (85%+ Acc.)</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Contact Form Section -->
+    <section id="contact" class="py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6">
+            <div class="card p-4 shadow-sm border-0 bg-white">
+              <h4 class="fw-bold text-center mb-3">Send a Message</h4>
+              <form>
+                <div class="mb-3">
+                  <label for="fullName" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="fullName" placeholder="Your Name" required>
+                </div>
+                <div class="mb-3">
+                  <label for="emailAddr" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="emailAddr" placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                  <label for="msgBody" class="form-label">Message</label>
+                  <textarea class="form-control" id="msgBody" rows="3" placeholder="Write your message here..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 py-2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+      <p class="mb-0 small">&copy; 2026 Anushka Dhariya. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
